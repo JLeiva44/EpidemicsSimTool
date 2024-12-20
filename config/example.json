@@ -1,0 +1,21 @@
+{
+    "population": {
+      "size": 1000,
+      "initial_states": {"susceptible": 950, "infected": 50, "recovered": 0}
+    },
+    "environment": {
+      "type": "grid",
+      "width": 50,
+      "height": 50
+    },
+    "disease": {
+      "transmission_rate": 0.03,
+      "recovery_rate": 0.1,
+      "mortality_rate": 0.01
+    },
+    "measures": {
+      "social_distancing": {"effectiveness": 0.5, "start_day": 10, "end_day": 30},
+      "vaccination": {"rate_per_day": 0.02, "start_day": 20}
+    }
+  }
+  
